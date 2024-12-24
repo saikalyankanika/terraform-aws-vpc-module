@@ -1,0 +1,20 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# Directory for Terragrunt cache
+.terragrunt-cache/
+
+# Local environment variables
+.envrc
+.env
+
+# tfplan files for planning
+*.tfplan
